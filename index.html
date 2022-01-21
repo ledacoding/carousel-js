@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <h1> Most popular Netflix series by hours watched</h1>
+        <div class="carousel">
+            <div class="carousel-item carousel-item-visible">
+                <img src="images/img1.jpg" />
+                <p class="series-name">Squid Game</p>
+                <p class="hours">1.65 billion hrs </p>
+                
+            </div>
+            <div class="carousel-item">
+                <img src="images/img2.jpg" />
+                <p class="series-name">Bridgerton</p>
+                <p class="hours">625 million hrs  </p>
+            </div>
+            <div class="carousel-item">
+                <img src="images/img3.jpg" />
+                <p class="series-name">Money Heist</p>
+                <p class="hours">619 million hrs</p>
+            </div>
+            
+            <div class="carousel-actions">
+                <button id="carousel-button-prev" aria-label="Previous Slidex"><</button>
+                <button id="carousel-button-next" aria-label="Next Slide">></button>
+            </div>
+        </div>
+        <div class="visual-dots">
+            <div class="dot active-dot">
+            </div>
+            <div class="dot">
+            </div>
+            <div class="dot">
+            </div>
+        </div>
+        <p class="note">This is the most-watched Netflix original television series by total hours viewed in the first 28 days.
+            </p>
+        <p class="note">Learn more <a href="https://en.wikipedia.org/wiki/List_of_most-watched_Netflix_original_programming">here</a>.</p>
+        
+    
+        <script src="index.js"></script>
+    </body>
+</html>
